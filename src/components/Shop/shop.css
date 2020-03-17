@@ -1,0 +1,39 @@
+.shop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.google-maps-icon {
+  width: 50px;
+  height: auto;
+}
+
+.closing-hour {
+    font-size: 1.2rem;
+    font-family: Oswald, sans-serif;
+}
+
+.shop-name {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: Oswald, sans-serif;
+}
+
+.distance {
+    margin: 0;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+
+.open {
+    background-color: #96f069;
+}
+
+.close {
+    background-color: #ff4242;
+}
+
+.closes-soon {
+    background-color: #fff954;
+}
