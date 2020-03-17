@@ -2,7 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {useShopsData} from "./hooks/useShopsData/useShopsData";
+
 function App() {
+ const shops = useShopsData();
+
   return (
     <div className="App">
       <header className="App-header">
