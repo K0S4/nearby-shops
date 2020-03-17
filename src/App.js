@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PageHeader from './components/PageHeader/PageHeader';
 import ShopsList from './components/ShopsList/ShopsList';
