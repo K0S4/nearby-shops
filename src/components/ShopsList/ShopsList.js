@@ -20,7 +20,7 @@ function ShopsList(props) {
     return (
       <div className="loader">
       <ClipLoader
-        size={150}
+        size={100}
         color={"#123abc"}
         loading={loading}
       />
