@@ -2,6 +2,7 @@ import React from "react";
 import "./shop.css";
 
 function Shop(props) {
+  console.log("component shop");
   return (
     <li className="shop open">
       <div>
