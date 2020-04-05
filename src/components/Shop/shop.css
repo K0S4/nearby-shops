@@ -37,3 +37,8 @@
 .closes-soon {
     background-color: #fff954;
 }
+
+.container {
+    width: 75%;
+    text-align: center;
+}

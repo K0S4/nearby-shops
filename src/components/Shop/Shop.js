@@ -4,7 +4,7 @@ import "./shop.css";
 function Shop(props) {
   return (
     <li className={`shop ${props.isOpen ? "open" : "close"} `}>
-      <div>
+      <div className="container">
         <p className="shop-name">{props.name}</p>
         <p className="distance">{props.distance}</p>
       </div>
