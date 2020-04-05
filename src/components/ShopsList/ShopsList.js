@@ -17,11 +17,13 @@ function ShopsList(props) {
   }
   if (loading) {
     return (
+      <div className="loader">
       <ClipLoader
-        size={150}
+        size={100}
         color={"#123abc"}
         loading={loading}
       />
+      </div>
     );
   }
 
