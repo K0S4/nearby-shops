@@ -6,13 +6,12 @@ import {ClipLoader} from "react-spinners";
 function ShopsList(props) {
   const loading = props.shops == null;
   function displayShop(name, distance, openingHours) {
-    console.log("display");
     return (
       <Shop
         key={name}
         name={name}
         distance={distance}
-        openingHours={openingHours}
+        isOpen={openingHours.open_now}
       />
     );
   }

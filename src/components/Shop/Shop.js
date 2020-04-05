@@ -2,9 +2,8 @@ import React from "react";
 import "./shop.css";
 
 function Shop(props) {
-  console.log("component shop");
   return (
-    <li className="shop open">
+    <li className={`shop ${props.isOpen ? "open" : "close"} `}>
       <div>
         <p className="shop-name">{props.name}</p>
         <p className="distance">{props.distance}</p>
