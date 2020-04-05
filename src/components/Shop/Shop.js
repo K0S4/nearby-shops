@@ -5,7 +5,7 @@ function Shop(props) {
   console.log("component shop");
   return (
     <li className="shop open">
-      <div>
+      <div className="container">
         <p className="shop-name">{props.name}</p>
         <p className="distance">{props.distance}</p>
       </div>
